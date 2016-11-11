@@ -6,7 +6,7 @@ permalink: /research/
 
 # Current work
 
-I am working on modelling daily rainfall data in a Bayesian mixture model framework.
+For my PhD I am working on modelling daily rainfall data in a Bayesian mixture model framework. My supervisors are [Edward Cripps](http://www.web.uwa.edu.au/people/edward.cripps), [John Lau](http://staffhome.ecm.uwa.edu.au/~00066872/) and [Melinda Hodkiewicz](http://www.web.uwa.edu.au/people/melinda.hodkiewicz).
 
 # Past research
 
