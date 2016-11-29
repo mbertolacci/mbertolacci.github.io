@@ -4,7 +4,9 @@ use_site_title_in_head: true
 layout: home
 ---
 
-<img src="/assets/profile.jpg" style="float: right; margin-left: 1em;" />
+<div class="profile-picture-container">
+    <img src="/assets/profile.jpg" class="profile-picture" />
+</div>
 
 I am a PhD student in Computational Statistics at The University of Western Australia. My supervisors are [Edward Cripps](http://www.web.uwa.edu.au/people/edward.cripps), [John Lau](http://staffhome.ecm.uwa.edu.au/~00066872/) and [Melinda Hodkiewicz](http://www.web.uwa.edu.au/people/melinda.hodkiewicz).
 
