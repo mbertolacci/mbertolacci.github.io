@@ -10,6 +10,8 @@ I've recently put an R package on Github, [climatedata](https://github.com/mbert
 as part of my PhD work. At present, the idea is to help the package user
 download climate index data, either directly or as calculated from source data.
 
+<!--more-->
+
 At this point, there are three indices available to download:
 
 - the Indian Ocean Dipole, via the Dipole Mode Index provided by [JAMSTEC](http://www.jamstec.go.jp/frsgc/research/d1/iod/iod/dipole_mode_index.html);
