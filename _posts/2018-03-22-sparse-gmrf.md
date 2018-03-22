@@ -24,7 +24,9 @@ $$
   -\frac{Q_{ij}}{\sqrt{Q_{ii} Q_{jj}}},
 $$
 
-that is, the correlation between \\(y_i\\) and \\(y_j\\), conditional on all the other entries in \\(\tilde{y}\\), is in proportion to the \\(ij\\)th entry of the precision matrix. A really simple example of a model that can be cast this way is an AR(1) process, where \\(y\_t = \rho y\_{t - 1} + \epsilon\_t\\), with \\(\epsilon\_t\\) i.i.d. standard normal. For this model, the conditional correlations are \\(\rho\\) for adjacent entries and zero otherwise. The precision matrix is
+that is, the correlation between \\(y_i\\) and \\(y_j\\), conditional on all the other entries in \\(\tilde{y}\\), is in proportion to the \\(ij\\)th entry of the precision matrix. Then, if \\(Q_{ij} = 0\\), \\(y_i\\) and \\(y_j\\) are independent given all other entries, and the converse is also true. This is what leads to the interpretation of these systems as Gaussian Markov Random Fields (GMRFs): the 'Gaussian' part is (hopefully) obvious, while the 'MRF' part arises by constructing a graphical model with nodes labelled from 1 to \\(n\\), interpreting the non-zero entries \\(Q_{ij}\\) as indicating that an edge exists between nodes \\(i\\) and \\(j\\) (so they are neighbours), and noting that, conditional on its neighbours, a node is independent of its non-neighbours - the Markov property.
+
+A really simple example of a model that can be cast this way is an AR(1) process, where \\(y\_t = \rho y\_{t - 1} + \epsilon\_t\\), with \\(\epsilon\_t\\) i.i.d. standard normal. For this model, the conditional correlations are \\(\rho\\) for adjacent entries and zero otherwise. The precision matrix is
 
 $$
   Q = \begin{pmatrix}
@@ -190,7 +192,7 @@ and the sample can be visualised as
   />
 </div>
 
-which shows a fair amount of correlated structure.
+which shows a fair amount of correlated structure (at least it does to me).
 
 As a programming aside, the `chol_Q_100_permuted` object produced by the `Cholesky` function is an S4 object of class `CHMfactor` that contains both the permutation matrix \\(P\\) and the decomposition \\(L\\). You can extract these like so:
 
