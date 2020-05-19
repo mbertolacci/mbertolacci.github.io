@@ -41,6 +41,7 @@ $on-laptop:        800px;
 .profile-picture {
     float: right;
     margin-left: 1em;
+    width: 250px;
     @include media-query($on-palm) {
         width: 10em;
     }

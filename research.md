@@ -6,7 +6,7 @@ permalink: /research/
 
 # Current work
 
-I am working on spatiotemporal flux inversion for trace gases.
+I am working on [spatiotemporal flux inversion](https://niasra.uow.edu.au/cei/research/UOW264213.html) for trace gases at the [Centre for Environmental Informatics](https://niasra.uow.edu.au/cei/index.html) at the [University of Wollongong](https://uow.edu.au).
 
 # Past research
 

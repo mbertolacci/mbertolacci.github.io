@@ -12,6 +12,14 @@ An R package for interfacing with the [Australian Bureau of Meteorology's](http:
 
 An R package that simplifies downloading a few climate indices.
 
+# armspp ([github](https://github.com/mbertolacci/armspp) | [CRAN](https://cran.r-project.org/web/packages/armspp/index.html))
+
+An efficient Rcpp implementation of the Adaptive Rejection Metropolis Sampling (ARMS) algorithm proposed by [Gilks, W. R., Best, N. G. and Tan, K. K. C. (1995)](https://doi.org/10.2307/2986138). This allows for sampling from a univariate target probability distribution specified by its (potentially unnormalised) log density. This was my first CRAN package!
+
+# savepointr ([github](https://github.com/mbertolacci/savepointr))
+
+An R package containing functions to create and manage 'savepoints', a method of saving intermediate states of long running processes in a fault tolerant manner.
+
 # lorem-rss ([github](https://github.com/mbertolacci/lorem-rss))
 
 A webservice that generates Lorem Ipsum RSS at specified intervals, available at [http://lorem-rss.herokuapp.com](http://lorem-rss.herokuapp.com).
