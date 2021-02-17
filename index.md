@@ -16,4 +16,6 @@ You can read about [my past work and see what I'm working on now]({% link resear
 
 Sometimes I [write about statistics and programming]({% link posts.md %}).
 
+I put some of my [talks online]({% link talks.md %}).
+
 I've been working as a programmer for some time now and occasionally [publish software online]({% link software.md %}).
